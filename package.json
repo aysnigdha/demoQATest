@@ -12,5 +12,9 @@
   "type": "commonjs",
   "dependencies": {
     "cypress": "^15.8.2"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.36.0"
   }
 }
