@@ -3,15 +3,15 @@ name: Run Cypress Tests
 on:
     push:
         branches:
-            -main
+                -main
     pull_request:
         branches:
-            -main       
+               -main       
 jobs: 
-    cypress-run:
-       runs-on: ubuntu-latest
-             
-     steps:
+  cypress-run:
+      runs-on: ubuntu-latest             
+     
+      steps:
 
       - name: Checkout code
         uses: actions/checkout@v4
